@@ -1,0 +1,21 @@
+# OS generated files #
+######################
+.DS_Store*
+ehthumbs.db
+Icon?
+Thumbs.db
+
+# IDE files #
+#################
+*.esproj
+.idea/*
+/.vimrc.local
+/.vimrc.*.local
+/.tern-project
+/.ctrlpignore
+/tags
+
+# Project files #
+#################
+/vendor/*
+composer.lock

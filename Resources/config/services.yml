@@ -1,0 +1,4 @@
+services:
+    dynamoSessionHandler:
+        class: Lightmaker\DynamoSessionHandlerBundle\Session\Storage\DynamoDbSessionHandler
+        arguments: [@lightmaker_aws, %lightmaker_dynamo_session_handler%]

@@ -1,0 +1,30 @@
+{
+  "name": "lightmaker/dynamo-session-handler-bundle",
+  "description": "A simple Symfony2 bundle to wrap the AWS SDK for PHP DynamoDB Session Handler",
+  "keywords": ["aws", "dynamo", "dynamodb", "session", "symfony", "symfony2"],
+  "homepage": "https://github.com/LightmakerCanada/DynamoSessionHandlerBundle",
+  "version": "1.0.0",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Greg Holland",
+      "email": "gholland85@gmail.com",
+      "homepage": "https://github.com/gregholland"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/LightmakerCanada/DynamoSessionHandlerBundle/issues"
+  },
+  "require": {
+    "php": ">=5.3.3",
+    "symfony/symfony": ">=2.1",
+    "aws/aws-sdk-php": ">=2.6",
+    "lightmaker/aws-bundle": "1.0.*",
+    "phpunit/phpunit": "3.7.*"
+  },
+  "autoload": {
+    "psr-0": { "Lightmaker\\DynamoSessionHandlerBundle": "" }
+  },
+  "target-dir": "Lightmaker/DynamoSessionHandlerBundle"
+}
