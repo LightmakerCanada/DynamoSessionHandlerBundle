@@ -19,7 +19,7 @@
     "php": ">=5.3.3",
     "symfony/symfony": ">=2.1",
     "aws/aws-sdk-php": ">=2.6",
-    "lightmaker/aws-bundle": "1.0.*"
+    "lightmaker/aws-bundle": ">=1.0"
   },
   "autoload": {
     "psr-0": { "Lightmaker\\DynamoSessionHandlerBundle": "" }
