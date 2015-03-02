@@ -3,7 +3,6 @@
   "description": "A simple Symfony2 bundle to wrap the AWS SDK for PHP DynamoDB Session Handler",
   "keywords": ["aws", "dynamo", "dynamodb", "session", "symfony", "symfony2"],
   "homepage": "https://github.com/LightmakerCanada/DynamoSessionHandlerBundle",
-  "version": "1.0.0",
   "type": "library",
   "license": "MIT",
   "authors": [
